@@ -11,9 +11,14 @@ config_version=5
 [application]
 
 config/name="Potions And Shadows"
+run/main_scene="res://scenes/potions_and_shadows.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
 [dotnet]
 
 project/assembly_name="Potions And Shadows"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
