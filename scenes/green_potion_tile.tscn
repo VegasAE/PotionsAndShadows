@@ -1,9 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://on6mj5ycgsbe"]
-
-[ext_resource type="PackedScene" uid="uid://ds5ule8e528e0" path="res://scenes/potion_tile.tscn" id="1_8g5ih"]
-[ext_resource type="Texture2D" uid="uid://bv4m0u0c6onej" path="res://assets/Potion2.png" id="2_5sy38"]
-
-[node name="PotionTile" instance=ExtResource("1_8g5ih")]
-
-[node name="Sprite2D" parent="." index="0"]
-texture = ExtResource("2_5sy38")
