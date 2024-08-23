@@ -12,5 +12,6 @@ func _ready():
 func _process(delta):
 	pass
 	
-	
+
+# Randomise the sprite when generating new tile
 
