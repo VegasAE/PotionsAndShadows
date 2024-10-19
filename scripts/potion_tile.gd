@@ -5,6 +5,7 @@ class_name Potion extends Node2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	sprite.frame = randi_range(0, 6)
 	pass # Replace with function body.
 
 
@@ -12,7 +13,3 @@ func _ready():
 func _process(delta):
 	pass
 	
-
-# Randomise the sprite when generating new tile
-func randSprite():
-	pass
