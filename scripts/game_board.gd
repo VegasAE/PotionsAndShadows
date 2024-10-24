@@ -6,14 +6,14 @@ var boardW: int = 8
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	# Create the game board
 	genBoard()
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
-
+# Populates the game board with potions
 func genBoard() -> void:
 	for i in boardL:
 		board.append([])
 		for j in boardW:
 			board[i].append(Potion)
+			board[i][j].setPosition(j,i)
+			
