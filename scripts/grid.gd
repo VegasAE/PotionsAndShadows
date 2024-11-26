@@ -1,4 +1,4 @@
-class_name GameBoard extends Node2D
+class_name Grid extends Node2D
 
 var board: Array = []
 var boardL: int = 8
@@ -15,5 +15,4 @@ func genBoard() -> void:
 		board.append([])
 		for j in boardW:
 			board[i].append(Potion)
-			board[i][j].setPosition(j,i)
 			

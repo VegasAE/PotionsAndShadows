@@ -1,7 +1,7 @@
 [gd_scene load_steps=11 format=3 uid="uid://ds5ule8e528e0"]
 
 [ext_resource type="Script" path="res://scripts/potion_tile.gd" id="1_nvjwm"]
-[ext_resource type="Texture2D" uid="uid://b2cymveh7a743" path="res://assets/Potions2.png" id="2_g5716"]
+[ext_resource type="Texture2D" uid="uid://bvmr553tiswxe" path="res://assets/Potions2.png" id="2_g5716"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nno22"]
 atlas = ExtResource("2_g5716")
